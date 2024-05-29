@@ -1,0 +1,48 @@
+img{
+    width: 200px;
+}
+
+.footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0px;
+
+  & div {
+    background-color: #152545;
+    color: #fff;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+  }
+}
+
+svg {
+  width: 100%;
+}
+
+/* Animação ondas */
+
+.wave {
+  animation: wave 3s linear;
+  animation-iteration-count: infinite;
+  fill: #152545;
+}
+#wave2 {
+  animation-duration: 5s;
+  animation-direction: reverse;
+  opacity: 0.6;
+}
+#wave3 {
+  animation-duration: 7s;
+  opacity: 0.3;
+}
+@keyframes wave {
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.footer-content{
+    display: flex;
+}
