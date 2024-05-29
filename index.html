@@ -5,64 +5,86 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Sentinelas dos mares</title>
     <link rel="stylesheet" href="/css/footer.css" />
-    <link rel="stylesheet" href="./css/base.css">
-    <link rel="shortcut icon" href="/imgs/sea sentinels logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/base.css" />
+    <link
+      rel="shortcut icon"
+      href="/imgs/sea sentinels logo.png"
+      type="image/x-icon"
+    />
 
     <!-- CHAMADA GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Fjalla+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
       rel="stylesheet"
     />
 
     <!-- CAHAMDA CDN FONT AWESOME -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+      integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body>
-    <div>
-      <div class="footer">
-        <svg viewBox="0 0 120 32">
-          <defs>
-            <mask id="xxx"></mask>
-  
-            <filter id="goo">
-              <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
-              <feColorMatrix
-                in="blur"
-                mode="matrix"
-                values="
+    <!-- INICIO FOOTER -->
+    <div class="footer">
+      <svg viewBox="0 0 120 18">
+        <defs>
+          <mask id="xxx"></mask>
+          <filter id="goo">
+            <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="blur" />
+            <feColorMatrix
+              in="blur"
+              mode="matrix"
+              values="
                             1 0 0 0 0  
                             0 1 0 0 0  
                             0 0 1 0 0  
                             0 0 0 13 -9"
-                result="goo"
-              />
-              <feBlend in="SourceGraphic" in2="goo" />
-            </filter>
-            <path
-              id="wave"
-              d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z"
+              result="goo"
             />
-          </defs>
-  
-          <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
-          <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
-  
-          <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
-        </svg>
-        <div class="footer-content">
-          <div class="">
-          <img src="imgs/sea sentinels logo.png" alt="">
-          <div>
-            </i><a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""></a>
-            <a href=""></a>
-          </div>
+            <feBlend in="SourceGraphic" in2="goo" />
+          </filter>
+          <path
+            id="wave"
+            d="M 0,10 C 30,10 30,15 60,15 90,15 90,10 120,10 150,10 150,15 180,15 210,15 210,10 240,10 v 28 h -240 z"
+          />
+        </defs>
+        <use id="wave3" class="wave" xlink:href="#wave" x="0" y="-2"></use>
+        <use id="wave2" class="wave" xlink:href="#wave" x="0" y="0"></use>
+        <use id="wave1" class="wave" xlink:href="#wave" x="0" y="1" />
+      </svg>
+      <div class="fit-position-container">
+        <div class="fit-element-container">
+          <img src="imgs/sea sentinels nome.png" alt="Nome Sea Sentinels" />
+          <ul class="footer-informative">
+            <li>&copy; 2024 Sea Sentinels</li>
+            <li>|</li>
+            <a href=""><li>Termos de Uso</li></a>
+            <li>|</li>
+            <a href=""><li>Privacidade</li></a>
+            <li>|</li>
+            <a href=""><li>Contato</li></a>
+            <li>|</li>
+            <a href=""><li>Quem somos</li></a>
+          </ul>
+        </div>
+        <div class="fit-element-container">
+          <a class="btn" href="">Assine a newsletter da Sea Sentinels</a>
+          <div class="icons">
+            <a href=""><i class="fa-brands fa-facebook teste"></i></a>
+            <a href=""><i class="fa-brands fa-instagram teste"></i></a>
+            <a href=""><i class="fa-brands fa-x-twitter teste"></i></a>
+            <a href=""><i class="fa-brands fa-linkedin-in teste"></i></a>
+            <a href=""><i class="fa-brands fa-youtube teste"></i></a>
           </div>
         </div>
       </div>
+    </div>
+    <!-- FIM FOOTER  -->
   </body>
 </html>
-
