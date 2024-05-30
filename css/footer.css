@@ -1,6 +1,6 @@
 .footer {
   width: 100vw;
-  position: fixed;
+  position: relative;
   bottom: 0px;
 
   & div {
@@ -45,7 +45,7 @@ svg {
   }
 
   a:hover {
-    color: var(--color-blue-light);
+    color: var(--color-gray);
   }
 }
 
@@ -64,8 +64,8 @@ svg {
 }
 
 .btn:hover {
-  border: solid 1px var(--color-blue-light);
-  color: var(--color-blue-light);
+  border: solid 1px var(--color-gray);
+  color: var(--color-gray);
 }
 
 .icons {
@@ -74,6 +74,7 @@ svg {
   justify-content: end;
   gap: 3rem;
   padding-top: 2rem;
+  font-size: 2rem;
 }
 
 .fa-brands {
@@ -82,7 +83,7 @@ svg {
 }
 
 .fa-brands:hover {
-  color: var(--color-blue-light);
+  color: var(--color-gray);
 }
 
 /* Animação ondas */
