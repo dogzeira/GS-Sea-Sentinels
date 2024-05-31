@@ -1,7 +1,9 @@
 :root {
   --color-white: #f0f8ff;
-  --color-blue-dark: #00356D;
+  --color-blue-dark: #00346D;
   --color-gray: #919391;
+  --color-body:#FAF9F6;
+  --color-blue-medium:#56C4EC;
 }
 
 * {
@@ -18,6 +20,17 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Poppins", sans-serif;
+  background-color: var(--color-body);
+
+  &::-webkit-scrollbar {
+    width: 0.5rem;
+  }
+  &::-webkit-scrollbar-track {
+    background: var(--color-blue-dark);
+  }
+  &::-webkit-scrollbar-thumb {
+    background: var(--color-white);
+  }
 }
 
 a {

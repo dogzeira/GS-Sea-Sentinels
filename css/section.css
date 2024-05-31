@@ -1,20 +1,47 @@
-img{
-    width: 100%;
-
+/* INICIO QUEM SMOMOS */
+img {
+  width: 100%;
 }
 
-body::-webkit-scrollbar {
-    width: .5rem
+.fit-text {
+  width: 50%;
+  margin: auto;
+  line-height: 6rem;
+  font-size: 2rem;
+
+  & h2 {
+    font-weight: 400;
+    text-align: justify;
+  }
+
+  & span {
+    color: var(--color-blue-medium);
+    display: flex;
+    justify-content: end;
+    font-weight: bold;
+  }
 }
 
-body::-webkit-scrollbar-track {
-    background: var(--color-white)
+.fit-title{
+  text-align: center;
+  font-size: 4rem;
+  font-family: "Oswald", sans-serif;
+  color: var(--color-blue-medium);
+
+  & h2{
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+  }
 }
 
-body::-webkit-scrollbar-thumb {
-    background: var(--color-blue-dark)
+iframe{
+  border-radius: 2rem;
+  box-shadow: 8px 9px 70px 10px;
+  color: var(--color-gray);
+  margin-top: 4rem;
 }
+/* FIM QUEM SMOMOS */
 
-.fit-image{
-    height: 100vh;
-}
+ /* INICIO PROBLEMAS  */
+ 
+  /* FIM PROBLEMAS  */
