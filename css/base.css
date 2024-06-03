@@ -31,6 +31,11 @@ body {
   &::-webkit-scrollbar-thumb {
     background: var(--color-white);
   }
+  
+  ::selection{
+    background-color: var(--color-blue-dark);
+    color: var(--color-body);
+  }
 }
 
 a {
