@@ -11,20 +11,20 @@ img {
 
   & p {
     font-weight: 400;
-    font-size: 2.5rem;
+    font-size: 2rem;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: 5rem;
+    margin-left: rem;
     width: 60%;
   }
-  
+
   & img{
     border-radius: 50%;
-    
     width: 40rem;
     height: 40rem;
+    padding: 3rem;
   }
 }
 
@@ -106,9 +106,14 @@ iframe {
 
   & p {
     width: 80%;
-    text-align: justify;
     margin: auto;
     margin-top: 2rem;
+  }
+
+  & span{
+    font-weight: bold;
+    color: var(--color-blue-dark);
+    font-size: 2rem;
   }
 }
 
