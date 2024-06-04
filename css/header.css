@@ -6,6 +6,9 @@
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  top: 0;
+  z-index: 999;
 }
 
 .fit-header {
@@ -48,4 +51,8 @@
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+}
+
+.nav-spacing {
+  height: 14vh;
 }

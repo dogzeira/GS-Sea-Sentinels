@@ -47,27 +47,29 @@
   </head>
   <body>
     <!-- INICIO HEADER -->
+    <div class="nav-spacing"></div>
     <div class="header">
-      <div class="alignment-logo">
-        <img
-          src="imgs/logo branco.png"
-          alt="Logo principal Sea Sentinels"
-          class="logo-header"
-        />
-        <!-- <img
+      <a href="#">
+        <div class="alignment-logo">
+          <img
+            src="imgs/logo branco.png"
+            alt="Logo principal Sea Sentinels"
+            class="logo-header"
+          />
+          <!-- <img
           src="imgs/nome branco header.png"
           alt=""
           width="400px"
           class="nome-logo-header"
         /> -->
-      </div>
+        </div>
+      </a>
       <div class="fit-header">
         <ul>
           <li><a href="#quem-somos">Quem Somos</a></li>
           <li><a href="#problema">Problemas</a></li>
-          <li><a href="">Soluções</a></li>
-          <li><a href="">Consientização</a></li>
-          <li><a href="">Contato</a></li>
+          <li><a href="#solucoes">Soluções</a></li>
+          <li><a href="#contacts">Contato</a></li>
         </ul>
       </div>
     </div>
@@ -185,10 +187,10 @@
       <!-- FIM PROBLEMAS -->
 
       <!-- INICIO SOLUÇÃO -->
-      <h2 class="titles">Soluções</h2>
+      <h2 id="solucoes" class="titles">Soluções</h2>
       <div class="structure">
-        <div class="fit-cards">
-          <div class="cards">
+        <div class="fit-cards-2">
+          <div class="cards-2">
             <img
               src="./imgs/aquecimento global.jpg"
               alt="Imagem de industrias"
@@ -202,7 +204,7 @@
               combater essa crise e preservar os mares para todos.
             </p>
           </div>
-          <div class="cards">
+          <div class="cards-2">
             <img
               src="./imgs/vida marinha.jpg"
               alt="Imagem de peixe morto com uma luva de plastico"
@@ -218,8 +220,8 @@
             </p>
           </div>
         </div>
-        <div class="fit-cards">
-          <div class="cards">
+        <div class="fit-cards-2">
+          <div class="cards-2">
             <img
               src="./imgs/poluicao mares.jpg"
               alt="Imagem de um mar cheio de sacolas plasticas"
@@ -232,7 +234,7 @@
               formas de vida que dependem deles.
             </p>
           </div>
-          <div class="cards">
+          <div class="cards-2">
             <img src="./imgs/enchentes.jpg" alt="" />
             <p>
               <span>4-</span> As enchentes relacionadas aos mares são um
@@ -261,10 +263,10 @@
       </div>
       <!-- FIM SOLUÇÃO -->
       <!-- INICIO CONTATO -->
-      
+      <div id="contacts"></div>
       <div class="background-contact">
-        <h2 class="">Contate-nos</h2>
-        <form name="contato" id="contato" method="get" action="">
+        <h2>Contate-nos</h2>
+        <form name="contato" method="get" action="">
           <input
             type="text"
             id="nome"
