@@ -343,7 +343,7 @@ form {
 
     & p {
       font-size: 1.8rem;
-      text-align: justify;
+      text-align: center;
     }
   }
 }
@@ -379,7 +379,7 @@ form {
   .join-us {
     & p {
       width: 90%;
-      text-align: justify;
+      line-height: 3rem;
     }
   }
 }
@@ -412,5 +412,11 @@ form {
         font-size: 3rem;
       }
     }
+  }
+}
+
+@media(max-width: 599px){
+  .image-background{
+    background-attachment: scroll;
   }
 }
