@@ -226,7 +226,7 @@ img {
   content: "";
   position: absolute;
   inset: 0;
-  background: #0f1525cc;
+  background:#0f1525cc;
   z-index: -1;
 }
 /* FIM SOLUÇÕES */
@@ -418,5 +418,12 @@ form {
 @media(max-width: 599px){
   .image-background{
     background-attachment: scroll;
+  }
+}
+
+@media(max-width: 599px){
+  .fit-video::before {
+    background:var(--color-blue-dark);
+    
   }
 }
