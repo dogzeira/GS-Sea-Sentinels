@@ -1,6 +1,13 @@
 /* INICIO QUEM SMOMOS */
+
 img {
   width: 100%;
+}
+
+.fit-image {
+  & img {
+    width: 100%;
+  }
 }
 
 .fit-text {
@@ -64,13 +71,6 @@ img {
     text-align: center;
   }
 }
-
-iframe {
-  border-radius: 2rem;
-  box-shadow: 8px 9px 70px 10px;
-  color: var(--color-gray);
-  margin-top: 4rem;
-}
 /* FIM QUEM SMOMOS */
 
 /* INICIO PROBLEMAS  */
@@ -84,7 +84,7 @@ iframe {
 }
 
 .structure {
-  width: 90%;
+  width: 100%;
   margin: auto;
   display: flex;
   justify-content: center;
@@ -108,6 +108,7 @@ iframe {
     width: 80%;
     margin: auto;
     margin-top: 2rem;
+    text-wrap: balance;
   }
 
   & span {
@@ -143,6 +144,7 @@ iframe {
   width: 100%;
   height: 50rem;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   flex-direction: column;
@@ -189,6 +191,7 @@ iframe {
     margin: auto;
     margin-top: 2rem;
     display: none;
+    text-wrap: balance;
   }
 
   & span {
@@ -281,3 +284,111 @@ form {
   }
 }
 /* FIM CONTATO */
+
+/* responsivo cards */
+@media (max-width: 1599px) {
+  .structure {
+    flex-wrap: wrap;
+    width: 70%;
+  }
+
+  .cards {
+    & p {
+      font-size: 1.4rem;
+    }
+  }
+
+  .cards-2 {
+    & p {
+      font-size: 1.4rem;
+    }
+  }
+}
+
+@media (max-width: 899px) {
+  .structure {
+    width: 100%;
+  }
+
+  .titles{
+    font-size: 5rem;
+  }
+
+
+}
+
+@media (max-width: 629px) {
+  .cards {
+    width: 90%;
+    height: 65rem;
+  }
+
+  .cards-2 {
+    width: 90%;
+  }
+
+  .cards-2:hover {
+    height: 65rem;
+  }
+}
+/* responsivo quem somos */
+@media (max-width: 1399px) {
+  .fit-text {
+    flex-direction: column;
+
+    & p {
+      font-size: 1.8rem;
+      text-align: justify;
+    }
+  }
+}
+@media (max-width: 899px) {
+  .fit-title {
+    & h2 {
+      font-size: 5rem;
+    }
+  }
+
+  .fit-text {
+    & p {
+      width: 90%;
+    }
+
+    & img {
+      width: 30rem;
+      height: 30rem;
+    }
+  }
+}
+/* responsivo junte-se a nos */
+@media (max-width: 1399px){
+  .join-us{
+    & p{
+      width: 90%;
+      text-align: justify;
+    }
+  }
+}
+
+/* responsivo matenha-se alerta */
+@media(max-width: 999px){
+  .Stay-alert{
+    & p{
+      width: 90%;
+      text-align: center;
+    }
+
+    & h2{
+      font-size: 4rem;
+      text-align: center;
+    }
+  }
+
+  @media(max-width: 499px){
+    .Stay-alert{
+      & h2{
+        font-size: 3rem;
+      }
+    }
+  }
+}

@@ -106,3 +106,38 @@ svg {
     transform: translateX(-100%);
   }
 }
+
+@media (max-width: 1199px) {
+  .fit-element-container {
+    padding-bottom: 2rem;
+    & img {
+      width: 30rem;
+      margin: auto;
+    }
+  }
+
+  .fit-position-container{
+    flex-direction: column;
+  }
+
+  .icons{
+    justify-content: center;
+    padding-top: 0;
+  }
+
+  .footer-informative{
+    justify-content: center;
+  }
+
+  .btn{
+    width: 50%;
+    /* margin: auto; */
+  }
+}
+
+@media (max-width: 799px){
+  .btn{
+    width: 80%;
+  }
+}
+

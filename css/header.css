@@ -4,7 +4,7 @@
   background-color: var(--color-blue-dark);
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   position: fixed;
   top: 0;
@@ -55,4 +55,47 @@
 
 .nav-spacing {
   height: 14vh;
+}
+
+@media (max-width: 899px) {
+  .alignment-logo {
+    & img {
+      margin: auto;
+    }
+  }
+  .fit-header {
+    & ul {
+      & li,
+      a {
+        font-size: 1.8rem;
+      }
+    }
+  }
+}
+
+/* responsivo header */
+@media (max-width: 729px) {
+  .header {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 629px) {
+  .fit-header {
+    & ul {
+      gap: 5rem;
+      & li,
+      a {
+        font-size: 1.6rem;
+      }
+    }
+  }
+}
+
+@media (max-width: 539px){
+  .fit-header {
+    & ul {
+      gap: 2rem;
+    }
+  }
 }
