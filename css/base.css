@@ -1,9 +1,10 @@
 :root {
   --color-white: #f0f8ff;
-  --color-blue-dark: #00346D;
+  --color-blue-dark: #003368;
   --color-gray: #919391;
   --color-body:#FAF9F6;
   --color-blue-medium:#56C4EC;
+  --color-black: hsl(0, 4%, 9%);
 }
 
 * {
