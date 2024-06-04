@@ -41,8 +41,8 @@ img {
 
   & h2 {
     font-size: 6rem;
-    margin-top: 10rem;
-    margin-bottom: 10rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
     font-family: "Oswald", sans-serif;
   }
 }
@@ -310,17 +310,15 @@ form {
     width: 100%;
   }
 
-  .titles{
+  .titles {
     font-size: 5rem;
   }
-
-
 }
 
 @media (max-width: 629px) {
   .cards {
     width: 90%;
-    height: 65rem;
+    height: 70rem;
   }
 
   .cards-2 {
@@ -331,6 +329,13 @@ form {
     height: 65rem;
   }
 }
+
+@media (max-width: 729px) {
+  .titles {
+    font-size: 4rem;
+  }
+}
+
 /* responsivo quem somos */
 @media (max-width: 1399px) {
   .fit-text {
@@ -342,6 +347,7 @@ form {
     }
   }
 }
+
 @media (max-width: 899px) {
   .fit-title {
     & h2 {
@@ -360,33 +366,49 @@ form {
     }
   }
 }
+
+@media (max-width: 729px) {
+  .fit-title {
+    & h2 {
+      font-size: 4rem;
+    }
+  }
+}
 /* responsivo junte-se a nos */
-@media (max-width: 1399px){
-  .join-us{
-    & p{
+@media (max-width: 1399px) {
+  .join-us {
+    & p {
       width: 90%;
       text-align: justify;
     }
   }
 }
 
+@media (max-width: 729px) {
+  .join-us {
+    h2 {
+      font-size: 4rem;
+    }
+  }
+}
+
 /* responsivo matenha-se alerta */
-@media(max-width: 999px){
-  .Stay-alert{
-    & p{
+@media (max-width: 999px) {
+  .Stay-alert {
+    & p {
       width: 90%;
       text-align: center;
     }
 
-    & h2{
+    & h2 {
       font-size: 4rem;
       text-align: center;
     }
   }
 
-  @media(max-width: 499px){
-    .Stay-alert{
-      & h2{
+  @media (max-width: 499px) {
+    .Stay-alert {
+      & h2 {
         font-size: 3rem;
       }
     }
