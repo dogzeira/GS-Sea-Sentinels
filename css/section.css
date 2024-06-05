@@ -309,10 +309,6 @@ form {
 }
 
 @media (max-width: 899px) {
-  .fit-video { /* Mostrar video no mobile */
-    position: static;
-  }
-
   .structure {
     width: 100%;
   }
@@ -479,8 +475,4 @@ form {
 }
 
 /* fundo do video com os peixes */
-@media (max-width: 599px) {
-  .fit-video::before {
-    background: var(--color-blue-dark);
-  }
-}
+
