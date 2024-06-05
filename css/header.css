@@ -92,7 +92,7 @@
   }
 }
 
-@media (max-width: 539px){
+@media (max-width: 539px) {
   .fit-header {
     & ul {
       gap: 2rem;
@@ -100,7 +100,7 @@
   }
 }
 
-@media(max-width: 413px){
+@media (max-width: 413px) {
   .fit-header {
     & ul {
       & li,

@@ -116,28 +116,27 @@ svg {
     }
   }
 
-  .fit-position-container{
+  .fit-position-container {
     flex-direction: column;
   }
 
-  .icons{
+  .icons {
     justify-content: center;
     padding-top: 0;
   }
 
-  .footer-informative{
+  .footer-informative {
     justify-content: center;
   }
 
-  .btn{
+  .btn {
     width: 50%;
     margin: 0 auto 0 auto;
   }
 }
 
-@media (max-width: 799px){
-  .btn{
+@media (max-width: 799px) {
+  .btn {
     width: 80%;
   }
 }
-
