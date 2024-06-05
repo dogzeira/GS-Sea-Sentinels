@@ -289,6 +289,7 @@ form {
 
 /* responsivo cards */
 @media (max-width: 1599px) {
+
   .structure {
     flex-wrap: wrap;
     width: 70%;
@@ -308,6 +309,10 @@ form {
 }
 
 @media (max-width: 899px) {
+  .fit-video { /* Mostrar video no mobile */
+    position: static;
+  }
+
   .structure {
     width: 100%;
   }
