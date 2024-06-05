@@ -1,3 +1,6 @@
 Douglas Rocha RM: 99055
 Isadora Ferreira RM: 555804
 Leticia Motta Castagna Valvassoura RM: 554439
+
+LINK DEPLOY DO PROJETO:
+https://seasentinels.vercel.app/
