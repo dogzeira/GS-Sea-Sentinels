@@ -7,7 +7,6 @@ img {
     width: 100%;
   }
 }
-
 .fit-text {
   line-height: 6rem;
   display: flex;
@@ -21,7 +20,6 @@ img {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
-    margin-left: rem;
     width: 60%;
   }
 
@@ -79,6 +77,14 @@ img {
       text-align: center;
     }
   }
+
+  #ordem-1 {
+    order: 1;
+  }
+
+  #ordem-2 {
+    order: 2;
+  }
 }
 
 @media (max-width: 899px) {
@@ -91,6 +97,7 @@ img {
   .fit-text {
     & p {
       width: 90%;
+      line-height: 4rem;
     }
 
     & img {
