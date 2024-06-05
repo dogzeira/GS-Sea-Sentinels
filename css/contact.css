@@ -1,0 +1,99 @@
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 4rem;
+
+  & input {
+    width: 70%;
+    height: 6rem;
+    background-color: transparent;
+    border-radius: 2px;
+    padding-left: 1rem;
+    color: var(--color-black);
+    font-size: 1.8rem;
+    border: solid 1px;
+    outline: none;
+  }
+
+  & button {
+    width: 70%;
+    height: 6rem;
+    background-color: var(--color-blue-dark);
+    color: var(--color-white);
+    border: none;
+    font-size: 1.8rem;
+  }
+
+  & ::placeholder {
+    font-size: 1.8rem;
+    padding-left: 1rem;
+    color: var(--color-black);
+  }
+}
+
+.background-contact {
+  width: 40%;
+  height: 60rem;
+  margin: auto;
+  border-radius: 2rem;
+  box-shadow: 20px 20px 50px 10px var(--color-gray);
+  margin-top: 10rem;
+
+  & h2 {
+    font-size: 5rem;
+    color: var(--color-blue-dark);
+    text-align: center;
+    padding: 4rem;
+    font-family: "Oswald", sans-serif;
+  }
+}
+
+@media (max-width: 1399px) {
+  .background-contact {
+    width: 50%;
+  }
+}
+
+@media (max-width: 1199px) {
+  .background-contact {
+    width: 60%;
+  }
+}
+
+@media (max-width: 999px) {
+  .background-contact {
+    width: 70%;
+
+    h2 {
+      font-size: 4rem;
+    }
+  }
+}
+
+@media (max-width: 729px) {
+  .background-contact {
+    width: 80%;
+    box-shadow: 0 0 0 0;
+  }
+}
+
+@media (max-width: 629px) {
+  form {
+    & input {
+      width: 100%;
+    }
+
+    & button {
+      width: 100%;
+    }
+  }
+
+  .background-contact {
+    & h2 {
+      font-size: 3rem;
+    }
+  }
+}
